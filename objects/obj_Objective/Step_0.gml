@@ -1,0 +1,1 @@
+//active = ( instance_exists( obj_Coin ) );

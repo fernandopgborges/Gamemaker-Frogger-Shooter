@@ -25,5 +25,3 @@ if ( image_yscale != baseScale ) {
 }
 
 move_wrap( true, true, 16 );
-
-if ( hp <= 0 ) instance_destroy();

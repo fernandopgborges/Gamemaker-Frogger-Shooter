@@ -14,3 +14,6 @@ targetY = y;
 
 previousX = x;
 previouY = y;
+
+global.Coins = 0;
+depth = -1;

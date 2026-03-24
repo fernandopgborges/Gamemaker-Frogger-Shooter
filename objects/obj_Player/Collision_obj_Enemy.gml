@@ -1,3 +1,7 @@
-instance_destroy();
+global.HP--;
 
-game_restart();
+if ( global.HP <= 0 ) {
+	game_restart();	
+}else {
+	room_restart();	
+}

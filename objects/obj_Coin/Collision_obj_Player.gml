@@ -1,3 +1,3 @@
-global.Score += 5;
+global.Coins++;
 
 instance_destroy();

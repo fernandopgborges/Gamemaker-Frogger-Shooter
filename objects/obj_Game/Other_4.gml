@@ -1,0 +1,1 @@
+totalCoins = instance_number( obj_Coin );
