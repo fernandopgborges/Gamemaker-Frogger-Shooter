@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Bullet",
-    "path":"sprites/spr_Bullet/spr_Bullet.yy",
+    "name":"spr_Tongue",
+    "path":"sprites/spr_Tongue/spr_Tongue.yy",
   },
   "spriteMaskId":null,
   "visible":true,

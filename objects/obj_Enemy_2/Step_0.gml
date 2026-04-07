@@ -1,5 +1,6 @@
 if ( !hit ) {
 	y += dir * spd;
+	image_yscale = -dir;
 	
 	if ( particleCounter > 0 ) {
 		particleCounter--;
@@ -21,7 +22,7 @@ if ( image_xscale != baseScale ) {
 }
 
 if ( image_yscale != baseScale ) {
-	image_yscale = lerp( image_yscale, baseScale, 0.2 );	
+	image_yscale = lerp( image_yscale, baseScale * -dir, 0.2 );	
 }
 
 move_wrap( true, true, 16 );

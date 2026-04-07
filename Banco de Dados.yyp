@@ -40,7 +40,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"Banco de Dados",
   "resources":[
@@ -194,7 +194,6 @@
     {"id":{"name":"__shd_scribble_bake_shadow","path":"shaders/__shd_scribble_bake_shadow/__shd_scribble_bake_shadow.yy",},},
     {"id":{"name":"__shd_scribble","path":"shaders/__shd_scribble/__shd_scribble.yy",},},
     {"id":{"name":"scribble_fallback_bulletpoint","path":"sprites/scribble_fallback_bulletpoint/scribble_fallback_bulletpoint.yy",},},
-    {"id":{"name":"spr_Bullet","path":"sprites/spr_Bullet/spr_Bullet.yy",},},
     {"id":{"name":"spr_Coins","path":"sprites/spr_Coins/spr_Coins.yy",},},
     {"id":{"name":"spr_Enemy_2","path":"sprites/spr_Enemy_2/spr_Enemy_2.yy",},},
     {"id":{"name":"spr_Enemy_3","path":"sprites/spr_Enemy_3/spr_Enemy_3.yy",},},
@@ -204,6 +203,7 @@
     {"id":{"name":"spr_Particle","path":"sprites/spr_Particle/spr_Particle.yy",},},
     {"id":{"name":"spr_Player","path":"sprites/spr_Player/spr_Player.yy",},},
     {"id":{"name":"spr_TileSet","path":"sprites/spr_TileSet/spr_TileSet.yy",},},
+    {"id":{"name":"spr_Tongue","path":"sprites/spr_Tongue/spr_Tongue.yy",},},
     {"id":{"name":"tl_Default","path":"tilesets/tl_Default/tl_Default.yy",},},
   ],
   "resourceType":"GMProject",

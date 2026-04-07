@@ -7,21 +7,25 @@ var keyDown = keyboard_check( ord("S" ) );
 var increment = 32;
 
 if ( keyRight && ( x + increment < room_width ) && !move ) {
+	image_angle = 270;
 	targetX += increment;
 	move = true;
 }
 
 if ( keyLeft && ( x - increment > 0 ) && !move  ) {
+	image_angle = 90;
 	targetX -= increment;
 	move = true;
 }
 
 if ( keyDown && ( y + increment < room_height ) && !move  ) {
+	image_angle = 180;
 	targetY += increment;
 	move = true;
 }
 
 if ( keyUp && ( y - increment > 0 ) && !move  ) {
+	image_angle = 0;
 	targetY -= increment;
 	move = true;
 }
@@ -96,6 +100,7 @@ if ( !move && dist < spd ) {
 	}
 	
 	if ( _shoot && !shooting ) {
+		image_angle = dir - 90;
 		shooting = true;
 		xscale = 1.25;
 		yscale = 0.75;
@@ -103,6 +108,7 @@ if ( !move && dist < spd ) {
 		var bullet = instance_create_depth( x, y, depth, obj_Bullet );
 		bullet.direction = dir;
 		bullet.speed = 1;
+		bullet.image_angle = image_angle;
 		alarm[1] = 30;
 	}
 }
